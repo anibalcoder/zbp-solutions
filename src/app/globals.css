@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import '@fontsource-variable/outfit';
 
 body {
   &.menu-open {
@@ -7,7 +8,19 @@ body {
 }
 
 @theme {
+  /* =============================== */
+  /* ============ Colors =========== */
+  /* =============================== */
   --color-background: #101622;
   --color-primary: #ffffff;
   --color-highlight: #0D59F2;
+  --color-accent: #00E5FF;
+
+  /* =============================== */
+  /* ============ Spacing ========== */
+  /* =============================== */
+  --spacing-wrapper: calc(100vh - 88px);
+
+  /* ========= Fonts ========= */
+  --font-outfit: 'Outfit Variable', sans-serif;
 }

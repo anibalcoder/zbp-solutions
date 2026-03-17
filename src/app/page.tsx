@@ -1,3 +1,5 @@
+import { Hero } from '@/components/hero';
+
 export const metadata = {
   title: 'ZBP Solutions - Inicio',
   description:
@@ -5,9 +7,5 @@ export const metadata = {
 };
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Inicio</h1>
-    </div>
-  );
+  return <Hero />;
 }

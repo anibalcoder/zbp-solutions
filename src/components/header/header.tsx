@@ -7,7 +7,7 @@ import { ContactCta } from '../ctas/contact-cta';
 export function Header() {
   return (
     <header>
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-6 px-6 md:px-12">
+      <div className="max-w-360 mx-auto flex items-center justify-between py-6 px-6 md:px-12">
         <Link href="/" className="flex items-center gap-3 font-bold text-xl">
           <FavIcon width={40} height={40} />
           <span>

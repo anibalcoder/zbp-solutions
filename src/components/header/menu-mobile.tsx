@@ -13,7 +13,7 @@ export function MenuMobile() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="md:hidden">
+    <nav className="md:hidden z-50">
       <button
         aria-label="Abrir menú"
         aria-expanded={isMenuOpen}

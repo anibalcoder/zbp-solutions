@@ -24,10 +24,11 @@ export function Navigation({ children }: NavigationProps) {
         return (
           <li key={link.name}>
             <Link
-              href={link.href}
               className={`block font-medium text-2xl md:text-base p-3 md:p-0 rounded-lg transition-colors ${
                 active ? 'text-highlight' : 'text-white'
               }`}
+              href={link.href}
+              aria-label={link.ariaLabel}
             >
               {link.name}
             </Link>
