@@ -5,7 +5,7 @@ export function Hero() {
     <section
       role="region"
       aria-labelledby="hero-title"
-      className="relative max-w-360 min-h-wrapper 2xl:min-h-max mx-auto py-36 px-6 lg:px-12"
+      className="wrapper relative py-36"
     >
       <div className="relative max-w-3xl mx-auto flex flex-col gap-8">
         {/* Blur decorativo */}
@@ -31,10 +31,7 @@ export function Hero() {
         </p>
 
         {/* Título */}
-        <h1
-          id="hero-title"
-          className="font-outfit text-white text-center font-extrabold text-5xl sm:text-6xl lg:text-7xl leading-[1.2]"
-        >
+        <h1 id="hero-title" className="title">
           Potenciamos tu{' '}
           <span className="block bg-linear-to-r from-accent to-highlight bg-clip-text text-transparent">
             Visión Digital
@@ -42,7 +39,7 @@ export function Hero() {
         </h1>
 
         {/* Descripción */}
-        <p className="text-lg text-accent/80 text-center text-balance">
+        <p className="description">
           Transformamos ideas complejas en interfaces intuitivas y sistemas
           robustos. Especialistas en desarrollo web, software a medida y
           marketing digital estratégico.

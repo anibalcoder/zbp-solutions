@@ -1,6 +1,6 @@
 'use client';
 
-import { NAVIGATION_LINKS } from '@/constants/navigation-links';
+import { NAVIGATION_LINKS } from '@/constants';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 

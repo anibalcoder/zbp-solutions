@@ -24,3 +24,22 @@ body {
   /* ========= Fonts ========= */
   --font-outfit: 'Outfit Variable', sans-serif;
 }
+
+@layer components {
+  .wrapper {
+    @apply max-w-360 min-h-wrapper 2xl:min-h-max mx-auto px-6 lg:px-12;
+  }
+
+  .title {
+    @apply font-outfit text-white text-center font-extrabold text-5xl sm:text-6xl lg:text-7xl leading-[1.2];
+  }
+
+  .description {
+    @apply text-lg text-accent/80 text-center text-balance;
+  }
+
+  .grid-responsive {
+    @apply grid gap-y-12 gap-x-10 place-content-center;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 420px));
+  }
+}
