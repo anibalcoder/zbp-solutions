@@ -1,4 +1,4 @@
-import { Service } from '@/constants/app-services';
+import { Service } from '@/interfaces';
 import { CircleCheck } from 'lucide-react';
 
 interface ServiceCardProps {

@@ -1,4 +1,4 @@
-import { ContactItem } from '@/constants/contact-items';
+import { type ContactItem } from '@/interfaces';
 import Link from 'next/link';
 
 export function ContactCard({ icon: Icon, label, value, href }: ContactItem) {

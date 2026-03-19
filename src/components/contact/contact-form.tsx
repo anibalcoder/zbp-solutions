@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { ChevronDownIcon, Send } from 'lucide-react';
-import { APP_SERVICES, Service } from '@/constants/app-services';
+import { APP_SERVICES } from '@/constants';
+import { Service } from '@/interfaces';
 
 function FormInput({
   id,
