@@ -21,7 +21,9 @@ body {
   /* =============================== */
   --spacing-wrapper: calc(100vh - 88px);
 
-  /* ========= Fonts ========= */
+  /* =============================== */
+  /* ============ Fonts ========== */
+  /* =============================== */
   --font-outfit: 'Outfit Variable', sans-serif;
 }
 
@@ -35,11 +37,28 @@ body {
   }
 
   .description {
-    @apply text-lg text-accent/80 text-center text-balance;
+    @apply text-lg text-accent/80 text-balance;
   }
 
   .grid-responsive {
     @apply grid gap-y-12 gap-x-10 place-content-center;
     grid-template-columns: repeat(auto-fit, minmax(auto, 420px));
+  }
+
+  /* ── Contact Section ── */
+  .contact-gradient-text {
+    background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 50%, #d946ef 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .contact-submit-btn {
+    background: linear-gradient(90deg, #3b82f6 0%, #6d28d9 50%, #d946ef 100%);
+    box-shadow: 0 4px 24px rgba(109, 40, 217, 0.35);
+  }
+
+  .contact-submit-btn:hover {
+    box-shadow: 0 6px 32px rgba(109, 40, 217, 0.5);
   }
 }

@@ -39,7 +39,7 @@ export function Hero() {
         </h1>
 
         {/* Descripción */}
-        <p className="description">
+        <p className="description text-center">
           Transformamos ideas complejas en interfaces intuitivas y sistemas
           robustos. Especialistas en desarrollo web, software a medida y
           marketing digital estratégico.

@@ -1,11 +1,5 @@
-import { Globe, LayoutDashboard, LucideIcon, Shuffle } from 'lucide-react';
-
-export interface Service {
-  id: string;
-  title: string;
-  features: string[];
-  icon: LucideIcon;
-}
+import { Service } from '@/interfaces';
+import { Globe, LayoutDashboard, Shuffle } from 'lucide-react';
 
 export const APP_SERVICES: Service[] = [
   {
