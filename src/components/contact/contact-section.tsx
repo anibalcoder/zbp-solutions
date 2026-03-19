@@ -5,7 +5,7 @@ import { TECH_STACK } from '@/constants';
 
 export function ContactSection() {
   return (
-    <section id="contacto" aria-labelledby="contact-heading">
+    <section aria-labelledby="contact-heading" className="overflow-x-hidden">
       <div className="wrapper relative py-20">
         {/* Subtle background glow */}
         <div

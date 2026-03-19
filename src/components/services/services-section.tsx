@@ -5,7 +5,7 @@ import { ServiceList } from './service-list';
 export function ServicesSection() {
   return (
     <section>
-      <div className="wrapper py-20 space-y-20">
+      <div className="wrapper py-24 space-y-20">
         <Intro />
         <ServiceList />
 
